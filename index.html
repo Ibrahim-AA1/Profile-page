@@ -4,14 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim Ayodele - Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to External CSS -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            font-size: 1.5rem;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Profile Photo */
+        .profile-photo {
+            display: block;
+            margin: 15px auto 10px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <header>
         <img src="f00d6628-3ddb-451c-b3fb-59ae00f1f8df.jpeg" alt="Ibrahim Ayodele's Photo" class="profile-photo">
         <h1>Ibrahim Ayodele</h1>
         <nav>
-            <a href="index.html" class="active">Home</a>
+            <a href="#about">About Me</a>
             <a href="certifications.html">Certifications</a>
             <a href="experience.html">Experience</a>
             <a href="contact.html">Contact</a>
@@ -20,17 +91,14 @@
 
     <div class="container">
         <section id="about">
-            <h2>👨‍💻 About Me</h2>
-            <p>I am a **third-year Computing Science student** at Thompson Rivers University specializing in **data analytics, software engineering, and problem-solving.**</p>
-            <p>📊 Certified in **Python, Google Analytics, and foundational software engineering principles** through coursework and Coursera programs.</p>
-            <p>🚀 Passionate about **building web-based solutions, enhancing problem-solving skills, and continuous learning.**</p>
-            <a href="certifications.html" class="btn">View My Certifications</a>
+            <h2>About Me</h2>
+            <p>I am a third-year Computing Science student at Thompson Rivers University, specializing in data analytics, software engineering, and problem-solving. My academic journey and certifications have equipped me with practical skills in Python, Google Analytics, foundational software engineering principles, and web development.</p>
+            <p>I am passionate about building web-based solutions, enhancing problem-solving skills, and embracing continuous learning to tackle real-world challenges effectively.</p>
         </section>
     </div>
 
     <footer>
         <p>© 2025 Ibrahim Ayodele | Portfolio in Progress</p>
-        <p><a href="https://www.linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
     </footer>
 </body>
 </html>
