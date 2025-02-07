@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahim Ayodele - Personal Website</title>
+    <title>Ibrahim Ayodele - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@
         header {
             background: #333;
             color: #fff;
-            padding: 15px 0; /* Keeps the spacing consistent */
+            padding: 15px 0;
             text-align: center;
         }
         header h1 {
@@ -32,14 +32,15 @@
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #4caf50;
         }
         .container {
             width: 90%;
             max-width: 900px;
             margin: 20px auto;
-        }
-        section {
-            margin-bottom: 30px;
         }
         footer {
             text-align: center;
@@ -47,81 +48,55 @@
             background: #333;
             color: #fff;
         }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
         h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
             font-size: 1.5rem;
         }
-        /* Profile Photo Styling */
         .profile-photo {
             display: block;
-            margin: 15px auto 10px; /* Space around the image */
-            width: 150px; /* Original size */
-            height: 150px; /* Original size */
-            border-radius: 50%; /* Circular shape */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            margin: 15px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="f00d6628-3ddb-451c-b3fb-59ae00f1f8df.jpeg" alt="Ibrahim Ayodele's Photo" class="profile-photo">
+        <img src="profile.jpg" alt="Ibrahim Ayodele's Photo" class="profile-photo">
         <h1>Ibrahim Ayodele</h1>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a Computing Science student passionate about solving problems, analyzing data, and exploring new technologies. I am building expertise in Python, foundational software engineering principles, and data analytics through academic coursework and certifications.</p>
-            <p>With a strong focus on adaptability, critical thinking, and collaboration, I strive to contribute meaningful solutions to complex challenges. My experiences have taught me the value of continuous learning, and this portfolio is a reflection of my journey as I grow both academically and professionally.</p>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>Thompson Rivers University</strong> <br> Bachelor of Computing Science (January 2022 - December 2026, expected)</p>
-        </section>
-
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <p>Explore my certifications, including courses on Python, Data Analytics, and foundational software engineering. Visit the <a href="certifications.html">Certifications Page</a> for the full list.</p>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <p><strong>GuardTeck Security</strong> <br> Security Officer (December 2022 - Present)</p>
-            <ul>
-                <li>Monitored central alarm systems and responded swiftly to emergencies.</li>
-                <li>Wrote detailed reports on property damage, theft, and unusual incidents.</li>
-                <li>Collaborated with team members to ensure operational excellence.</li>
-            </ul>
-
-            <p><strong>Paladin Security</strong> <br> Security Officer (July 2022 - Present)</p>
-            <ul>
-                <li>Conducted regular patrols to ensure the protection of property and personnel.</li>
-                <li>Reported suspicious activities and assisted with follow-up investigations.</li>
-                <li>Utilized communication devices for team coordination.</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <strong>ibrahim.ayodele@protonmail.com</strong></p>
+            <p>I am a Computing Science student at Thompson Rivers University, with a passion for solving problems through technology. My coursework and certifications have helped me develop foundational skills in **Python, HTML, CSS, SQL, and data analytics**.</p>
+            <p>I am committed to **continuous learning** and improving my technical skills while building practical projects that reflect my growth.</p>
         </section>
     </div>
 
     <footer>
-        <p>© 2025 Ibrahim Ayodele | This website is a work in progress.</p>
+        <p>© 2025 Ibrahim Ayodele | Work in progress</p>
+        <p>
+            <a href="https://www.linkedin.com">LinkedIn</a> |
+            <a href="https://github.com">GitHub</a>
+        </p>
     </footer>
 </body>
 </html>
